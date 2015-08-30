@@ -84,6 +84,7 @@ app.delete('/api/widget/:id',function(req,res) {
 });
 
 mongoose.connect('mongodb://jswla:jswla@ds035573.mongolab.com:35573/jswla');
+//mongoose.connect('mongodb://localhost/test');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function () {

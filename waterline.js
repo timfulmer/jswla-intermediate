@@ -8,7 +8,8 @@ var Waterline=require('waterline'),orm=new Waterline(),
     adapters:{default:mongoAdapter,mongo:mongoAdapter},
     connections:{
       localhostMongo:{
-        adapter: 'mongo',host: 'localhost',port: 27017,database: 'test'
+        adapter: 'mongo',host: 'jswla:jswla@ds035573.mongolab.com',port: 35573,database: 'jswla'
+        //adapter: 'mongo',host: 'localhost',port: 27017,database: 'test'
       }
     }
   };

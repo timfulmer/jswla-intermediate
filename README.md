@@ -4,7 +4,7 @@ http://www.meetup.com/JavaScript-Workshops-LA/
 ####Who’s this for:  
 Someone who’s heard about Node, possibly installed it, and wants to gain some hands on expertise.
 ####What would an attendee walk away with:
-Attendees will know how to setup a Node.JS project, including build scripts and fully automated testing.  Get hands on with composing applications from self written modules and various NPM packages. Learn Node.JS fundamentals, including NPM tips and techniques. Get introduced to several current tech stack options.
+Attendees will know how to setup a Node.JS project.  Get hands on with composing applications from self written modules and various NPM packages. Learn Node.JS fundamentals, including NPM tips and techniques. Get introduced to several current tech stack options.
 ####Contents:
 - .gitignore :: Fairly typical .gitignore for a Node.JS project.
 - api.js :: Sample REST API implementation using Express.js and Mongoose.
